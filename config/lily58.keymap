@@ -14,6 +14,16 @@
 //#include <behaviors/mouse_key_press.dtsi>
 
 
+//this section is taken from aeonclok, might be useful later
+//#define ZMK_MOUSE_DEFAULT_SCRL_VAL 50 // 10
+
+//&msc {
+//    acceleration-exponent = <0>;      // 0
+//    time-to-max-speed-ms = <0>;       // 300
+//    delay-ms = <0>;                   // 0
+//};
+//end of the aeonclok mouse behavor
+
 / {
     keymap {
         compatible = "zmk,keymap";
