@@ -19,13 +19,6 @@
     status = "okay";
 };
 
-/ {
-    chosen {
-        zmk,studio-rpc-uart = &uart0;
-    };
-};
-
-
 &glidepoint_listener {
     status = "okay";
     device = <&glidepoint_split>;
@@ -41,9 +34,4 @@
             reg = <0>;
         };
     };
-};
-
-&uart0 {
-    status = "okay";
-    current-speed = <115200>;
 };
