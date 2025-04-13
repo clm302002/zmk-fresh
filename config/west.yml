@@ -7,9 +7,6 @@ manifest:
     # petejohanson is the DEV of ZMK - need his drivers for Cirque
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    #pm0u refrences pete for the cirque trackpad - thing these are required to make it work
-    - name: pm0u
-      url-base: https://github.com/pm0u
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,10 +17,5 @@ manifest:
     - name: cirque-input-module
       remote: petejohanson
       revision: main
-    #pm0u cirque section that uses pete - needed for the cirque to work
-    - name: glidepoint_i2c
-      remote: pm0u
-      revision: main
-      path: modules/glidepoint_i2c
   self:
     path: config
