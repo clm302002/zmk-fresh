@@ -27,14 +27,6 @@
                     <&pro_micro 19 GPIO_ACTIVE_HIGH>;
     };
 
-    glidepoint: glidepoint@2a {
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        dr-gpios = <&gpio1 2 (GPIO_ACTIVE_HIGH)>;
-        sensitivity = "1x";
-        status = "disabled";
-    };
-
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         status = "disabled";
