@@ -27,3 +27,5 @@ manifest:
       path: modules/glidepoint_i2c
   self:
     path: config
+
+
