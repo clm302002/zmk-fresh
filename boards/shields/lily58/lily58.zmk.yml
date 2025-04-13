@@ -1,0 +1,15 @@
+file_format: "1"
+id: lily58_custom
+name: Lily58 Custom (Cirque)
+type: shield
+url: https://github.com/yourusername/zmk-lily58
+requires:
+  - nice_nano_v2
+exposes:
+  - i2c_glidepoint
+features:
+  - keys
+  - pointer
+siblings:
+  - lily58_left
+  - lily58_right
